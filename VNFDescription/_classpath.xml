@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="imgs"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/protege.api"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/semantic"/>
+	<classpathentry kind="lib" path="jgoodies-common-1.8.0.jar" sourcepath="jgoodies-common-1.8.0-sources.jar"/>
+	<classpathentry kind="lib" path="jgoodies-forms-1.8.0.jar" sourcepath="jgoodies-forms-1.8.0-sources.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/jena lib"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/jena"/>
+	<classpathentry kind="lib" path="C:/Users/adminnennouar/Downloads/apache-jena-3.8.0.zip"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/owlapi-distribution"/>
+	<classpathentry kind="lib" path="C:/Users/adminnennouar/Desktop/jena-arq-3.8.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/adminnennouar/Desktop/org.semanticweb.owl.owlapi-3.4.4.jar"/>
+	<classpathentry kind="lib" path="jcalendar-1.4.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/jena1"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/jenalib"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

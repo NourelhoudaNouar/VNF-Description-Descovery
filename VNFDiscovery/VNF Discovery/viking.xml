@@ -1,0 +1,4222 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/pc/ontologies/2018/3/VIKING"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/pc/ontologies/2018/3/VIKING">
+    <Prefix name="" IRI="http://www.semanticweb.org/pc/ontologies/2018/3/VIKING#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Audio_codec"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Audio_format"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Billing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bitrate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Codec"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Compressing_operation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Compression_standard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Compression_technique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Computer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Content"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Content_attributes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Deployment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Developer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Device"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Feature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Format"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gaming"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Image_codec"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Image_format"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mixing_operation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mixing_technique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mobile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Operation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Provider"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Quality"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Resolution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Size"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Standard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TV"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tablet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Technique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transcoding_operation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transcoding_standard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Transcoding_technique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VNF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vcompressor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Video_codec"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Video_format"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vmixer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vtranscoder"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#applies"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#costs"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#covers"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#delivers"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#develope"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#developed_by"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#implements"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is_Vnf_TypeOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#offers"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#owns"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#refers_to"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requests"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requires"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requires_AudioBitrate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requires_AudioCodec"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requires_AudioFormat"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requires_AudioResolution"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requires_ImageBitrate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requires_ImageCodec"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requires_ImageFormat"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requires_ImageResolution"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requires_VideoBitrate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requires_VideoCodec"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requires_VideoFormat"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requires_VideoResolution"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#requires_maxSize"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#supplies"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#supplies_AudioBitrate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#supplies_AudioCodec"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#supplies_AudioFormat"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#supplies_AudioResolution"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#supplies_ImageBitrate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#supplies_ImageCodec"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#supplies_ImageFormat"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#supplies_ImageResolution"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#supplies_VideoBitrate"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#supplies_VideoCodec"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#supplies_VideoFormat"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#supplies_VideoResolution"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#supports"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#type_of"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_CPU_Resource"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_CPU_unit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_ID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_Memory_unit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_Network_unit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_VNFD_URI"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_VNF_URI"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_VNF_description"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_aspectratio_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_bitrate_unit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_bitrate_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_category"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_currency"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_deployment_description_URI"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_developer"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_duration_unit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_duration_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_email"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_framerate_unit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_framerate_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_framesize_unit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_framesize_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_memory_resource"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_network_resource"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_operation_description"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_password"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_price"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_pricing_model"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_released_date"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_role"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_size_unit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_size_value"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_standard_description"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_start_date"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_storage_resource"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_storage_unit"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_technique_description"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_tool_description"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_vendor"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_version"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AAC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AC3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AC3_Passthru"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AMV"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ASF"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AVC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AVI"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adobe_RGB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Adobe_Wide_Gamut_RGB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Audio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Auto_Passthru"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BMP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CIE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CIELAB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CIELChab"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CIELChuv"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CIELUV"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CIEUVW"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CIE_1931_XYZ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CMYK"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cropping"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cut"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DCT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DPCM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DTS-HD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DTS_Passthru"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Deblock"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Decomb"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Deinterlacing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Denoise"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Detelecine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#E-AC3_Passthru"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FFT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FLV"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GIF"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GPP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Grayscale"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H.120"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H.261"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H.261_compression_standard"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H.262"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H.263"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H.264"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#H.265"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HEVC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HSL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HSV"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ICO"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ICtCp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Image"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JPEG"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JPEG_compression_standard"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LPCM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LQ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Libtheora"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#M4A"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MJPEG_compression_standard"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MKV"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MP3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MP4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MPEG"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MPEG-1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MPEG-1_compression_standard"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MPEG-2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MPEG-4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MPG"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MS_MPEG-4v3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OGG"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PNG"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pass_Variable_Bit_Rate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Quad_HD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R1080p"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R1334x750_pixels"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R240p"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R2k"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R360p"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R480p"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R4k"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#R720p"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RAW"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RGB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rotate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Run_length"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TS"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Transcoding"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Transmuxing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Transrating"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Transsizing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TrueHD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VP6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VP6-E"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VP6-S"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VP7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VP8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VP9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VRO"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Video"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WAV"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WMA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WMV"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WebM"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#YCbCr"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#YDbDr"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#YIQ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#YPbPr"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#YUV"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ala"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#android"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#apple"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#arithmetic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#downmix_left"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#front_center"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#front_left"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#front_right"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#full_HD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#iPhone_6s"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#letterbox"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#loss_compression"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lossless_compression"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#low_frequency"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nour"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#overlay"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#picture_in_picture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pictures_mixing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#playstation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#quality_adaptation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#quality_transcoding"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#resize"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sRGB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#scaling"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sharpen"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#side_by_side"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#spatial_adaptation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#stereo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#temporal_adaptation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#video_picture_mixing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#video_video_mixing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#x750_pixels"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#xbox"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#xvYCC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#3GP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#3GPP"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Audio_codec"/>
+        <Class IRI="#Codec"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Audio_format"/>
+        <Class IRI="#Format"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bitrate"/>
+        <Class IRI="#Content_attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Codec"/>
+        <Class IRI="#Content_attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Compressing_operation"/>
+        <Class IRI="#Operation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Compression_standard"/>
+        <Class IRI="#Standard"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Compression_technique"/>
+        <Class IRI="#Technique"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Computer"/>
+        <Class IRI="#Device"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Developer"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Format"/>
+        <Class IRI="#Content_attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Gaming"/>
+        <Class IRI="#Device"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Image_codec"/>
+        <Class IRI="#Codec"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Image_format"/>
+        <Class IRI="#Format"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mixing_operation"/>
+        <Class IRI="#Operation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mixing_technique"/>
+        <Class IRI="#Technique"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mobile"/>
+        <Class IRI="#Device"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Provider"/>
+        <Class IRI="#Person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Quality"/>
+        <Class IRI="#Content_attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Resolution"/>
+        <Class IRI="#Content_attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Size"/>
+        <Class IRI="#Content_attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TV"/>
+        <Class IRI="#Device"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tablet"/>
+        <Class IRI="#Device"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transcoding_operation"/>
+        <Class IRI="#Operation"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transcoding_standard"/>
+        <Class IRI="#Standard"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Transcoding_technique"/>
+        <Class IRI="#Technique"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VNF"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#applies"/>
+            <Class IRI="#Technique"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VNF"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#costs"/>
+            <Class IRI="#Billing"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VNF"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#Device"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VNF"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#offers"/>
+            <Class IRI="#Feature"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VNF"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#refers_to"/>
+            <Class IRI="#Deployment"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VNF"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#delivers"/>
+            <Class IRI="#Content"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VNF"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#implements"/>
+            <Class IRI="#Operation"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VNF"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#requests"/>
+            <Class IRI="#Content"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VNF"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#requires"/>
+            <Class IRI="#Content_attributes"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VNF"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#supplies"/>
+            <Class IRI="#Content_attributes"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VNF"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#refers_to"/>
+            <Class IRI="#Deployment"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VNF"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#has_VNFD_URI"/>
+            <Datatype abbreviatedIRI="xsd:anyURI"/>
+        </DataMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VNF"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#has_VNF_URI"/>
+            <Datatype abbreviatedIRI="xsd:anyURI"/>
+        </DataMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VNF"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#has_vendor"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VNF"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#has_VNF_description"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VNF"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#has_version"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vcompressor"/>
+        <Class IRI="#VNF"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vcompressor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#applies"/>
+            <Class IRI="#Technique"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vcompressor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#costs"/>
+            <Class IRI="#Billing"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vcompressor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#Device"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vcompressor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#offers"/>
+            <Class IRI="#Feature"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vcompressor"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#applies"/>
+            <Class IRI="#Compression_technique"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vcompressor"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#implements"/>
+            <Class IRI="#Compressing_operation"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vcompressor"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#refers_to"/>
+            <Class IRI="#Deployment"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vcompressor"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#supports"/>
+            <Class IRI="#Compression_standard"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vcompressor"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#delivers"/>
+            <Class IRI="#Content"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vcompressor"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#implements"/>
+            <Class IRI="#Compressing_operation"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vcompressor"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#implements"/>
+            <Class IRI="#Operation"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vcompressor"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#requests"/>
+            <Class IRI="#Content"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vcompressor"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#requires"/>
+            <Class IRI="#Content_attributes"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vcompressor"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#supplies"/>
+            <Class IRI="#Content_attributes"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vcompressor"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#refers_to"/>
+            <Class IRI="#Deployment"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vcompressor"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#has_VNFD_URI"/>
+            <Datatype abbreviatedIRI="xsd:anyURI"/>
+        </DataMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vcompressor"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#has_VNF_URI"/>
+            <Datatype abbreviatedIRI="xsd:anyURI"/>
+        </DataMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vcompressor"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#has_vendor"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vcompressor"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#has_VNF_description"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vcompressor"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#has_version"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Video_codec"/>
+        <Class IRI="#Codec"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Video_format"/>
+        <Class IRI="#Format"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vmixer"/>
+        <Class IRI="#VNF"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vmixer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#applies"/>
+            <Class IRI="#Technique"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vmixer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#costs"/>
+            <Class IRI="#Billing"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vmixer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#Device"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vmixer"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#offers"/>
+            <Class IRI="#Feature"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vmixer"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#applies"/>
+            <Class IRI="#Mixing_technique"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vmixer"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#implements"/>
+            <Class IRI="#Mixing_operation"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vmixer"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#refers_to"/>
+            <Class IRI="#Deployment"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vmixer"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#delivers"/>
+            <Class IRI="#Content"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vmixer"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#implements"/>
+            <Class IRI="#Mixing_operation"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vmixer"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#implements"/>
+            <Class IRI="#Operation"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vmixer"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#requests"/>
+            <Class IRI="#Content"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vmixer"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#requires"/>
+            <Class IRI="#Content_attributes"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vmixer"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#supplies"/>
+            <Class IRI="#Content_attributes"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vmixer"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#refers_to"/>
+            <Class IRI="#Deployment"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vmixer"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#has_VNFD_URI"/>
+            <Datatype abbreviatedIRI="xsd:anyURI"/>
+        </DataMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vmixer"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#has_VNF_URI"/>
+            <Datatype abbreviatedIRI="xsd:anyURI"/>
+        </DataMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vmixer"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#has_vendor"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vmixer"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#has_VNF_description"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vmixer"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#has_version"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vtranscoder"/>
+        <Class IRI="#VNF"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vtranscoder"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#applies"/>
+            <Class IRI="#Technique"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vtranscoder"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#costs"/>
+            <Class IRI="#Billing"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vtranscoder"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#Device"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vtranscoder"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#offers"/>
+            <Class IRI="#Feature"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vtranscoder"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#applies"/>
+            <Class IRI="#Transcoding_technique"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vtranscoder"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#implements"/>
+            <Class IRI="#Transcoding_operation"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vtranscoder"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#refers_to"/>
+            <Class IRI="#Deployment"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vtranscoder"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#supports"/>
+            <Class IRI="#Transcoding_standard"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vtranscoder"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#delivers"/>
+            <Class IRI="#Content"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vtranscoder"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#implements"/>
+            <Class IRI="#Operation"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vtranscoder"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#implements"/>
+            <Class IRI="#Transcoding_operation"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vtranscoder"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#requests"/>
+            <Class IRI="#Content"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vtranscoder"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#requires"/>
+            <Class IRI="#Content_attributes"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vtranscoder"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#supplies"/>
+            <Class IRI="#Content_attributes"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vtranscoder"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#refers_to"/>
+            <Class IRI="#Deployment"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vtranscoder"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#has_VNFD_URI"/>
+            <Datatype abbreviatedIRI="xsd:anyURI"/>
+        </DataMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vtranscoder"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#has_VNF_URI"/>
+            <Datatype abbreviatedIRI="xsd:anyURI"/>
+        </DataMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vtranscoder"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#has_vendor"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vtranscoder"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#has_VNF_description"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vtranscoder"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#has_version"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Audio_format"/>
+        <Class IRI="#Image_format"/>
+        <Class IRI="#Video_format"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Compressing_operation"/>
+        <Class IRI="#Mixing_operation"/>
+        <Class IRI="#Transcoding_operation"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Compression_standard"/>
+        <Class IRI="#Transcoding_standard"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Compression_technique"/>
+        <Class IRI="#Mixing_technique"/>
+        <Class IRI="#Transcoding_technique"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Developer"/>
+        <Class IRI="#Provider"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#Audio_codec"/>
+        <NamedIndividual IRI="#AAC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Audio_format"/>
+        <NamedIndividual IRI="#AAC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#AAC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Format"/>
+        <NamedIndividual IRI="#AAC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Audio_codec"/>
+        <NamedIndividual IRI="#AC3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Audio_format"/>
+        <NamedIndividual IRI="#AC3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#AC3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Format"/>
+        <NamedIndividual IRI="#AC3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Audio_codec"/>
+        <NamedIndividual IRI="#AC3_Passthru"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Video_codec"/>
+        <NamedIndividual IRI="#AMV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#ASF"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Format"/>
+        <NamedIndividual IRI="#ASF"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Video_format"/>
+        <NamedIndividual IRI="#ASF"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Video_codec"/>
+        <NamedIndividual IRI="#AVC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#AVI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Format"/>
+        <NamedIndividual IRI="#AVI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Video_format"/>
+        <NamedIndividual IRI="#AVI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#Adobe_RGB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#Adobe_Wide_Gamut_RGB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content"/>
+        <NamedIndividual IRI="#Audio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Audio_codec"/>
+        <NamedIndividual IRI="#Auto_Passthru"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#BMP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Format"/>
+        <NamedIndividual IRI="#BMP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Image_format"/>
+        <NamedIndividual IRI="#BMP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#CIE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#CIELAB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#CIELChab"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#CIELChuv"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#CIELUV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#CIEUVW"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#CIE_1931_XYZ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#CMYK"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Feature"/>
+        <NamedIndividual IRI="#Cropping"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Feature"/>
+        <NamedIndividual IRI="#Cut"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compression_technique"/>
+        <NamedIndividual IRI="#DCT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Technique"/>
+        <NamedIndividual IRI="#DCT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compression_technique"/>
+        <NamedIndividual IRI="#DM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Technique"/>
+        <NamedIndividual IRI="#DM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compression_technique"/>
+        <NamedIndividual IRI="#DPCM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Technique"/>
+        <NamedIndividual IRI="#DPCM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Audio_codec"/>
+        <NamedIndividual IRI="#DTS-HD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Audio_codec"/>
+        <NamedIndividual IRI="#DTS_Passthru"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Feature"/>
+        <NamedIndividual IRI="#Deblock"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Feature"/>
+        <NamedIndividual IRI="#Deinterlacing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Feature"/>
+        <NamedIndividual IRI="#Denoise"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Feature"/>
+        <NamedIndividual IRI="#Detelecine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Audio_codec"/>
+        <NamedIndividual IRI="#E-AC3_Passthru"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compression_technique"/>
+        <NamedIndividual IRI="#FFT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Technique"/>
+        <NamedIndividual IRI="#FFT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#FLV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Format"/>
+        <NamedIndividual IRI="#FLV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Video_format"/>
+        <NamedIndividual IRI="#FLV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#GIF"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Format"/>
+        <NamedIndividual IRI="#GIF"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Image_format"/>
+        <NamedIndividual IRI="#GIF"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#GP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Format"/>
+        <NamedIndividual IRI="#GP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#GPP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Format"/>
+        <NamedIndividual IRI="#GPP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Standard"/>
+        <NamedIndividual IRI="#H.120"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transcoding_standard"/>
+        <NamedIndividual IRI="#H.120"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Standard"/>
+        <NamedIndividual IRI="#H.261"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transcoding_standard"/>
+        <NamedIndividual IRI="#H.261"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compression_standard"/>
+        <NamedIndividual IRI="#H.261_compression_standard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Standard"/>
+        <NamedIndividual IRI="#H.261_compression_standard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Standard"/>
+        <NamedIndividual IRI="#H.262"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transcoding_standard"/>
+        <NamedIndividual IRI="#H.262"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Video_codec"/>
+        <NamedIndividual IRI="#H.262"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Standard"/>
+        <NamedIndividual IRI="#H.263"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transcoding_standard"/>
+        <NamedIndividual IRI="#H.263"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Standard"/>
+        <NamedIndividual IRI="#H.264"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transcoding_standard"/>
+        <NamedIndividual IRI="#H.264"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Video_codec"/>
+        <NamedIndividual IRI="#H.265"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#HD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Quality"/>
+        <NamedIndividual IRI="#HD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Standard"/>
+        <NamedIndividual IRI="#HEVC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transcoding_standard"/>
+        <NamedIndividual IRI="#HEVC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Video_codec"/>
+        <NamedIndividual IRI="#HEVC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#HSL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#HSV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#ICO"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Format"/>
+        <NamedIndividual IRI="#ICO"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Image_format"/>
+        <NamedIndividual IRI="#ICO"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#ICtCp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content"/>
+        <NamedIndividual IRI="#Image"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#JPEG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Format"/>
+        <NamedIndividual IRI="#JPEG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Image_format"/>
+        <NamedIndividual IRI="#JPEG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compression_standard"/>
+        <NamedIndividual IRI="#JPEG_compression_standard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Standard"/>
+        <NamedIndividual IRI="#JPEG_compression_standard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#LD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Quality"/>
+        <NamedIndividual IRI="#LD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Audio_format"/>
+        <NamedIndividual IRI="#LPCM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#LPCM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Format"/>
+        <NamedIndividual IRI="#LPCM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#LQ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Quality"/>
+        <NamedIndividual IRI="#LQ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Video_codec"/>
+        <NamedIndividual IRI="#Libtheora"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Audio_format"/>
+        <NamedIndividual IRI="#M4A"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#M4A"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Format"/>
+        <NamedIndividual IRI="#M4A"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compression_standard"/>
+        <NamedIndividual IRI="#MJPEG_compression_standard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Standard"/>
+        <NamedIndividual IRI="#MJPEG_compression_standard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#MKV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Format"/>
+        <NamedIndividual IRI="#MKV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Video_format"/>
+        <NamedIndividual IRI="#MKV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Audio_codec"/>
+        <NamedIndividual IRI="#MP3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Audio_format"/>
+        <NamedIndividual IRI="#MP3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#MP3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Format"/>
+        <NamedIndividual IRI="#MP3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#MP4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Format"/>
+        <NamedIndividual IRI="#MP4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Video_format"/>
+        <NamedIndividual IRI="#MP4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Standard"/>
+        <NamedIndividual IRI="#MPEG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transcoding_standard"/>
+        <NamedIndividual IRI="#MPEG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Standard"/>
+        <NamedIndividual IRI="#MPEG-1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transcoding_standard"/>
+        <NamedIndividual IRI="#MPEG-1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compression_standard"/>
+        <NamedIndividual IRI="#MPEG-1_compression_standard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Standard"/>
+        <NamedIndividual IRI="#MPEG-1_compression_standard"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Standard"/>
+        <NamedIndividual IRI="#MPEG-2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transcoding_standard"/>
+        <NamedIndividual IRI="#MPEG-2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Video_codec"/>
+        <NamedIndividual IRI="#MPEG-2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Standard"/>
+        <NamedIndividual IRI="#MPEG-4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transcoding_standard"/>
+        <NamedIndividual IRI="#MPEG-4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#MPG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Format"/>
+        <NamedIndividual IRI="#MPG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Video_format"/>
+        <NamedIndividual IRI="#MPG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Video_codec"/>
+        <NamedIndividual IRI="#MS_MPEG-4v3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Audio_format"/>
+        <NamedIndividual IRI="#OGG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#OGG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Format"/>
+        <NamedIndividual IRI="#OGG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#PNG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Format"/>
+        <NamedIndividual IRI="#PNG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Image_format"/>
+        <NamedIndividual IRI="#PNG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#PS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Format"/>
+        <NamedIndividual IRI="#PS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Video_format"/>
+        <NamedIndividual IRI="#PS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Technique"/>
+        <NamedIndividual IRI="#Pass_Variable_Bit_Rate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#Quad_HD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Quality"/>
+        <NamedIndividual IRI="#Quad_HD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#R1334x750_pixels"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Resolution"/>
+        <NamedIndividual IRI="#R240p"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Resolution"/>
+        <NamedIndividual IRI="#R2k"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Resolution"/>
+        <NamedIndividual IRI="#R360p"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Resolution"/>
+        <NamedIndividual IRI="#R480p"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Resolution"/>
+        <NamedIndividual IRI="#R4k"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Resolution"/>
+        <NamedIndividual IRI="#R720p"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#RAW"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Format"/>
+        <NamedIndividual IRI="#RAW"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Image_format"/>
+        <NamedIndividual IRI="#RAW"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#RGB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Feature"/>
+        <NamedIndividual IRI="#Rotate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compression_technique"/>
+        <NamedIndividual IRI="#Run_length"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Technique"/>
+        <NamedIndividual IRI="#Run_length"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#SD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Quality"/>
+        <NamedIndividual IRI="#SD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#TS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Format"/>
+        <NamedIndividual IRI="#TS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Video_format"/>
+        <NamedIndividual IRI="#TS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Vtranscoder"/>
+        <NamedIndividual IRI="#Tr_vnftesttranscoder1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transcoding_operation"/>
+        <NamedIndividual IRI="#Transcoding"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transcoding_operation"/>
+        <NamedIndividual IRI="#Transmuxing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transcoding_operation"/>
+        <NamedIndividual IRI="#Transrating"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transcoding_operation"/>
+        <NamedIndividual IRI="#Transsizing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Audio_codec"/>
+        <NamedIndividual IRI="#TrueHD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Video_codec"/>
+        <NamedIndividual IRI="#VP6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Video_codec"/>
+        <NamedIndividual IRI="#VP6-E"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Video_codec"/>
+        <NamedIndividual IRI="#VP6-S"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Video_codec"/>
+        <NamedIndividual IRI="#VP7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Video_codec"/>
+        <NamedIndividual IRI="#VP8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Video_codec"/>
+        <NamedIndividual IRI="#VP9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#VRO"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Format"/>
+        <NamedIndividual IRI="#VRO"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Video_format"/>
+        <NamedIndividual IRI="#VRO"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content"/>
+        <NamedIndividual IRI="#Video"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Audio_format"/>
+        <NamedIndividual IRI="#WAV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#WAV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Format"/>
+        <NamedIndividual IRI="#WAV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Audio_format"/>
+        <NamedIndividual IRI="#WMA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#WMA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Format"/>
+        <NamedIndividual IRI="#WMA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#WMV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Format"/>
+        <NamedIndividual IRI="#WMV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Video_codec"/>
+        <NamedIndividual IRI="#WMV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Video_format"/>
+        <NamedIndividual IRI="#WMV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#WebM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Format"/>
+        <NamedIndividual IRI="#WebM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Video_format"/>
+        <NamedIndividual IRI="#WebM"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#YCbCr"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#YDbDr"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#YIQ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#YPbPr"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#YUV"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#ala"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Provider"/>
+        <NamedIndividual IRI="#ala"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Device"/>
+        <NamedIndividual IRI="#android"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mobile"/>
+        <NamedIndividual IRI="#android"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Device"/>
+        <NamedIndividual IRI="#apple"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mobile"/>
+        <NamedIndividual IRI="#apple"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compression_technique"/>
+        <NamedIndividual IRI="#arithmetic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Technique"/>
+        <NamedIndividual IRI="#arithmetic"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#downmix_left"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#front_center"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#front_left"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#front_right"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#full_HD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Quality"/>
+        <NamedIndividual IRI="#full_HD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Device"/>
+        <NamedIndividual IRI="#iPhone_6s"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mobile"/>
+        <NamedIndividual IRI="#iPhone_6s"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Feature"/>
+        <NamedIndividual IRI="#letterbox"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compressing_operation"/>
+        <NamedIndividual IRI="#loss_compression"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Operation"/>
+        <NamedIndividual IRI="#loss_compression"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Compressing_operation"/>
+        <NamedIndividual IRI="#lossless_compression"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Operation"/>
+        <NamedIndividual IRI="#lossless_compression"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#low_frequency"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Developer"/>
+        <NamedIndividual IRI="#nour"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Person"/>
+        <NamedIndividual IRI="#nour"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mixing_technique"/>
+        <NamedIndividual IRI="#overlay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Technique"/>
+        <NamedIndividual IRI="#overlay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mixing_technique"/>
+        <NamedIndividual IRI="#picture_in_picture"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Technique"/>
+        <NamedIndividual IRI="#picture_in_picture"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mixing_operation"/>
+        <NamedIndividual IRI="#pictures_mixing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Operation"/>
+        <NamedIndividual IRI="#pictures_mixing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Device"/>
+        <NamedIndividual IRI="#playstation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gaming"/>
+        <NamedIndividual IRI="#playstation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Technique"/>
+        <NamedIndividual IRI="#quality_adaptation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transcoding_technique"/>
+        <NamedIndividual IRI="#quality_adaptation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Operation"/>
+        <NamedIndividual IRI="#quality_transcoding"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#sRGB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Feature"/>
+        <NamedIndividual IRI="#scaling"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Feature"/>
+        <NamedIndividual IRI="#sharpen"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mixing_technique"/>
+        <NamedIndividual IRI="#side_by_side"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Technique"/>
+        <NamedIndividual IRI="#side_by_side"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Technique"/>
+        <NamedIndividual IRI="#spatial_adaptation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transcoding_technique"/>
+        <NamedIndividual IRI="#spatial_adaptation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#stereo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Technique"/>
+        <NamedIndividual IRI="#temporal_adaptation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Transcoding_technique"/>
+        <NamedIndividual IRI="#temporal_adaptation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mixing_operation"/>
+        <NamedIndividual IRI="#video_picture_mixing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Operation"/>
+        <NamedIndividual IRI="#video_picture_mixing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mixing_operation"/>
+        <NamedIndividual IRI="#video_video_mixing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VNF"/>
+        <NamedIndividual IRI="#vnftesttranscoder1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#x750_pixels"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Device"/>
+        <NamedIndividual IRI="#xbox"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Gaming"/>
+        <NamedIndividual IRI="#xbox"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Content_attributes"/>
+        <NamedIndividual IRI="#xvYCC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Billing"/>
+        <NamedIndividual IRI="#0USD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Video_format"/>
+        <NamedIndividual IRI="#3GP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Video_format"/>
+        <NamedIndividual IRI="#3GPP"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#implements"/>
+        <NamedIndividual IRI="#Tr_vnftesttranscoder1"/>
+        <NamedIndividual IRI="#Transsizing"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#requests"/>
+        <NamedIndividual IRI="#Tr_vnftesttranscoder1"/>
+        <NamedIndividual IRI="#Video"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costs"/>
+        <NamedIndividual IRI="#vnftesttranscoder1"/>
+        <NamedIndividual IRI="#0USD"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is_Vnf_TypeOf"/>
+        <NamedIndividual IRI="#vnftesttranscoder1"/>
+        <NamedIndividual IRI="#Tr_vnftesttranscoder1"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_password"/>
+        <NamedIndividual IRI="#ala"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">ala15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_role"/>
+        <NamedIndividual IRI="#ala"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Provider</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_email"/>
+        <NamedIndividual IRI="#nour"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">nouar@laas.fr</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_password"/>
+        <NamedIndividual IRI="#nour"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">nour25</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_role"/>
+        <NamedIndividual IRI="#nour"/>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">Developer</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_CPU_Resource"/>
+        <NamedIndividual IRI="#vnftesttranscoder1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">0</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_VNF_ID"/>
+        <NamedIndividual IRI="#vnftesttranscoder1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">vnftesttranscoder19300</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_VNF_URI"/>
+        <NamedIndividual IRI="#vnftesttranscoder1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hhh</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_deployment_description_URI"/>
+        <NamedIndividual IRI="#vnftesttranscoder1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">hhhh</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_memory_resource"/>
+        <NamedIndividual IRI="#vnftesttranscoder1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">0KB</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_network_resource"/>
+        <NamedIndividual IRI="#vnftesttranscoder1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">0kbps</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_released_date"/>
+        <NamedIndividual IRI="#vnftesttranscoder1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">MMM d, yyyy</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_storage_resource"/>
+        <NamedIndividual IRI="#vnftesttranscoder1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">0KB</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_version"/>
+        <NamedIndividual IRI="#vnftesttranscoder1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">1.1.2</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#requires_AudioBitrate"/>
+        <ObjectProperty IRI="#requires"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#requires_AudioCodec"/>
+        <ObjectProperty IRI="#requires"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#requires_AudioFormat"/>
+        <ObjectProperty IRI="#requires"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#requires_AudioResolution"/>
+        <ObjectProperty IRI="#requires"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#requires_ImageBitrate"/>
+        <ObjectProperty IRI="#requires"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#requires_ImageCodec"/>
+        <ObjectProperty IRI="#requires"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#requires_ImageFormat"/>
+        <ObjectProperty IRI="#requires"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#requires_ImageResolution"/>
+        <ObjectProperty IRI="#requires"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#requires_VideoBitrate"/>
+        <ObjectProperty IRI="#requires"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#requires_VideoCodec"/>
+        <ObjectProperty IRI="#requires"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#requires_VideoFormat"/>
+        <ObjectProperty IRI="#requires"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#requires_VideoResolution"/>
+        <ObjectProperty IRI="#requires"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#requires_maxSize"/>
+        <ObjectProperty IRI="#requires"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#supplies_AudioBitrate"/>
+        <ObjectProperty IRI="#supplies"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#supplies_AudioCodec"/>
+        <ObjectProperty IRI="#supplies"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#supplies_AudioFormat"/>
+        <ObjectProperty IRI="#supplies"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#supplies_AudioResolution"/>
+        <ObjectProperty IRI="#supplies"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#supplies_ImageBitrate"/>
+        <ObjectProperty IRI="#supplies"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#supplies_ImageCodec"/>
+        <ObjectProperty IRI="#supplies"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#supplies_ImageFormat"/>
+        <ObjectProperty IRI="#supplies"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#supplies_ImageResolution"/>
+        <ObjectProperty IRI="#supplies"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#supplies_VideoBitrate"/>
+        <ObjectProperty IRI="#supplies"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#supplies_VideoCodec"/>
+        <ObjectProperty IRI="#supplies"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#supplies_VideoFormat"/>
+        <ObjectProperty IRI="#supplies"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#supplies_VideoResolution"/>
+        <ObjectProperty IRI="#supplies"/>
+    </SubObjectPropertyOf>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#costs"/>
+    </FunctionalObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#applies"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#costs"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#covers"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#delivers"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#developed_by"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#implements"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#offers"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#owns"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#refers_to"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#requests"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#requires"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#supplies"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#supports"/>
+    </AsymmetricObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#applies"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#costs"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#covers"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#delivers"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#developed_by"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#implements"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#offers"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#owns"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#refers_to"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#requests"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#requires"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#supplies"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#supports"/>
+    </IrreflexiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#applies"/>
+        <Class IRI="#VNF"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#costs"/>
+        <Class IRI="#VNF"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#covers"/>
+        <Class IRI="#VNF"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#delivers"/>
+        <Class IRI="#VNF"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#develope"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#developed_by"/>
+        <Class IRI="#VNF"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#implements"/>
+        <Class IRI="#VNF"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is_Vnf_TypeOf"/>
+        <Class IRI="#VNF"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#offers"/>
+        <Class IRI="#VNF"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#owns"/>
+        <Class IRI="#Content"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#refers_to"/>
+        <Class IRI="#VNF"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requests"/>
+        <Class IRI="#VNF"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requires"/>
+        <Class IRI="#VNF"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#requires_maxSize"/>
+        <Class IRI="#Vcompressor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#supplies"/>
+        <Class IRI="#VNF"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#supports"/>
+        <Class IRI="#VNF"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#type_of"/>
+        <Class IRI="#Content_attributes"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#applies"/>
+        <Class IRI="#Technique"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#costs"/>
+        <Class IRI="#Billing"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#covers"/>
+        <Class IRI="#Device"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#delivers"/>
+        <Class IRI="#Content"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#develope"/>
+        <Class IRI="#VNF"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#developed_by"/>
+        <Class IRI="#Person"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#implements"/>
+        <Class IRI="#Operation"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_Vnf_TypeOf"/>
+        <Class IRI="#Vcompressor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_Vnf_TypeOf"/>
+        <Class IRI="#Vmixer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is_Vnf_TypeOf"/>
+        <Class IRI="#Vtranscoder"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#offers"/>
+        <Class IRI="#Feature"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#owns"/>
+        <Class IRI="#Content_attributes"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#refers_to"/>
+        <Class IRI="#Deployment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requests"/>
+        <Class IRI="#Content"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requires"/>
+        <Class IRI="#Content_attributes"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#requires_maxSize"/>
+        <Class IRI="#Size"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#supplies"/>
+        <Class IRI="#Content_attributes"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#supports"/>
+        <Class IRI="#Standard"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#type_of"/>
+        <Class IRI="#Content"/>
+    </ObjectPropertyRange>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_CPU_Resource"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_ID"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_VNF_description"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_deployment_description_URI"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_email"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_operation_description"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_password"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_released_date"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_standard_description"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_technique_description"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_tool_description"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_vendor"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#has_version"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_CPU_Resource"/>
+        <Class IRI="#VNF"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_CPU_unit"/>
+        <Class IRI="#VNF"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_ID"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_Memory_unit"/>
+        <Class IRI="#VNF"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_Network_unit"/>
+        <Class IRI="#VNF"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNFD_URI"/>
+        <Class IRI="#VNF"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNFD_URI"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#applies"/>
+            <Class IRI="#Technique"/>
+        </ObjectSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNFD_URI"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#costs"/>
+            <Class IRI="#Billing"/>
+        </ObjectSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNFD_URI"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#Device"/>
+        </ObjectSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNFD_URI"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#offers"/>
+            <Class IRI="#Feature"/>
+        </ObjectSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNFD_URI"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#refers_to"/>
+            <Class IRI="#Deployment"/>
+        </ObjectAllValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNFD_URI"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#delivers"/>
+            <Class IRI="#Content"/>
+        </ObjectMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNFD_URI"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#implements"/>
+            <Class IRI="#Operation"/>
+        </ObjectMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNFD_URI"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#requests"/>
+            <Class IRI="#Content"/>
+        </ObjectMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNFD_URI"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#requires"/>
+            <Class IRI="#Content_attributes"/>
+        </ObjectMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNFD_URI"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#supplies"/>
+            <Class IRI="#Content_attributes"/>
+        </ObjectMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNFD_URI"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#refers_to"/>
+            <Class IRI="#Deployment"/>
+        </ObjectExactCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNFD_URI"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#has_VNFD_URI"/>
+            <Datatype abbreviatedIRI="xsd:anyURI"/>
+        </DataMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNFD_URI"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#has_VNF_URI"/>
+            <Datatype abbreviatedIRI="xsd:anyURI"/>
+        </DataMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNFD_URI"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#has_vendor"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNFD_URI"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#has_VNF_description"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNFD_URI"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#has_version"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNF_URI"/>
+        <Class IRI="#VNF"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNF_URI"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#applies"/>
+            <Class IRI="#Technique"/>
+        </ObjectSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNF_URI"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#costs"/>
+            <Class IRI="#Billing"/>
+        </ObjectSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNF_URI"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#Device"/>
+        </ObjectSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNF_URI"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#offers"/>
+            <Class IRI="#Feature"/>
+        </ObjectSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNF_URI"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#refers_to"/>
+            <Class IRI="#Deployment"/>
+        </ObjectAllValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNF_URI"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#delivers"/>
+            <Class IRI="#Content"/>
+        </ObjectMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNF_URI"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#implements"/>
+            <Class IRI="#Operation"/>
+        </ObjectMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNF_URI"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#requests"/>
+            <Class IRI="#Content"/>
+        </ObjectMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNF_URI"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#requires"/>
+            <Class IRI="#Content_attributes"/>
+        </ObjectMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNF_URI"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#supplies"/>
+            <Class IRI="#Content_attributes"/>
+        </ObjectMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNF_URI"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#refers_to"/>
+            <Class IRI="#Deployment"/>
+        </ObjectExactCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNF_URI"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#has_VNFD_URI"/>
+            <Datatype abbreviatedIRI="xsd:anyURI"/>
+        </DataMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNF_URI"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#has_VNF_URI"/>
+            <Datatype abbreviatedIRI="xsd:anyURI"/>
+        </DataMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNF_URI"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#has_vendor"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNF_URI"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#has_VNF_description"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNF_URI"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#has_version"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNF_description"/>
+        <Class IRI="#VNF"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNF_description"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#applies"/>
+            <Class IRI="#Technique"/>
+        </ObjectSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNF_description"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#costs"/>
+            <Class IRI="#Billing"/>
+        </ObjectSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNF_description"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#Device"/>
+        </ObjectSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNF_description"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#offers"/>
+            <Class IRI="#Feature"/>
+        </ObjectSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNF_description"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#refers_to"/>
+            <Class IRI="#Deployment"/>
+        </ObjectAllValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNF_description"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#delivers"/>
+            <Class IRI="#Content"/>
+        </ObjectMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNF_description"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#implements"/>
+            <Class IRI="#Operation"/>
+        </ObjectMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNF_description"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#requests"/>
+            <Class IRI="#Content"/>
+        </ObjectMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNF_description"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#requires"/>
+            <Class IRI="#Content_attributes"/>
+        </ObjectMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNF_description"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#supplies"/>
+            <Class IRI="#Content_attributes"/>
+        </ObjectMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNF_description"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#refers_to"/>
+            <Class IRI="#Deployment"/>
+        </ObjectExactCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNF_description"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#has_VNFD_URI"/>
+            <Datatype abbreviatedIRI="xsd:anyURI"/>
+        </DataMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNF_description"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#has_VNF_URI"/>
+            <Datatype abbreviatedIRI="xsd:anyURI"/>
+        </DataMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNF_description"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#has_vendor"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNF_description"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#has_VNF_description"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_VNF_description"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#has_version"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_aspectratio_value"/>
+        <Class IRI="#Content_attributes"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_bitrate_unit"/>
+        <Class IRI="#Bitrate"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_bitrate_unit"/>
+        <Class IRI="#Content_attributes"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_bitrate_value"/>
+        <Class IRI="#Bitrate"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_bitrate_value"/>
+        <Class IRI="#Content_attributes"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_category"/>
+        <Class IRI="#VNF"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_category"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#applies"/>
+            <Class IRI="#Technique"/>
+        </ObjectSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_category"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#costs"/>
+            <Class IRI="#Billing"/>
+        </ObjectSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_category"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#Device"/>
+        </ObjectSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_category"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#offers"/>
+            <Class IRI="#Feature"/>
+        </ObjectSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_category"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#refers_to"/>
+            <Class IRI="#Deployment"/>
+        </ObjectAllValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_category"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#delivers"/>
+            <Class IRI="#Content"/>
+        </ObjectMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_category"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#implements"/>
+            <Class IRI="#Operation"/>
+        </ObjectMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_category"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#requests"/>
+            <Class IRI="#Content"/>
+        </ObjectMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_category"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#requires"/>
+            <Class IRI="#Content_attributes"/>
+        </ObjectMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_category"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#supplies"/>
+            <Class IRI="#Content_attributes"/>
+        </ObjectMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_category"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#refers_to"/>
+            <Class IRI="#Deployment"/>
+        </ObjectExactCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_category"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#has_VNFD_URI"/>
+            <Datatype abbreviatedIRI="xsd:anyURI"/>
+        </DataMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_category"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#has_VNF_URI"/>
+            <Datatype abbreviatedIRI="xsd:anyURI"/>
+        </DataMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_category"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#has_vendor"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_category"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#has_VNF_description"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_category"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#has_version"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_currency"/>
+        <Class IRI="#Billing"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_deployment_description_URI"/>
+        <Class IRI="#Deployment"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_developer"/>
+        <Class IRI="#VNF"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_duration_unit"/>
+        <Class IRI="#Content"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_duration_unit"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#owns"/>
+            <Class IRI="#Audio_format"/>
+        </ObjectAllValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_duration_unit"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#owns"/>
+            <Class IRI="#Video_format"/>
+        </ObjectAllValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_duration_value"/>
+        <Class IRI="#Content"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_duration_value"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#owns"/>
+            <Class IRI="#Audio_format"/>
+        </ObjectAllValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_duration_value"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#owns"/>
+            <Class IRI="#Video_format"/>
+        </ObjectAllValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_email"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_framerate_unit"/>
+        <Class IRI="#Content_attributes"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_framerate_value"/>
+        <Class IRI="#Content_attributes"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_framesize_unit"/>
+        <Class IRI="#Content_attributes"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_framesize_value"/>
+        <Class IRI="#Content_attributes"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_memory_resource"/>
+        <Class IRI="#VNF"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_network_resource"/>
+        <Class IRI="#VNF"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_operation_description"/>
+        <Class IRI="#Operation"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_password"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_price"/>
+        <Class IRI="#Billing"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_pricing_model"/>
+        <Class IRI="#Billing"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_released_date"/>
+        <Class IRI="#VNF"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_released_date"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#applies"/>
+            <Class IRI="#Technique"/>
+        </ObjectSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_released_date"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#costs"/>
+            <Class IRI="#Billing"/>
+        </ObjectSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_released_date"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#Device"/>
+        </ObjectSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_released_date"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#offers"/>
+            <Class IRI="#Feature"/>
+        </ObjectSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_released_date"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#refers_to"/>
+            <Class IRI="#Deployment"/>
+        </ObjectAllValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_released_date"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#delivers"/>
+            <Class IRI="#Content"/>
+        </ObjectMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_released_date"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#implements"/>
+            <Class IRI="#Operation"/>
+        </ObjectMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_released_date"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#requests"/>
+            <Class IRI="#Content"/>
+        </ObjectMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_released_date"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#requires"/>
+            <Class IRI="#Content_attributes"/>
+        </ObjectMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_released_date"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#supplies"/>
+            <Class IRI="#Content_attributes"/>
+        </ObjectMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_released_date"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#refers_to"/>
+            <Class IRI="#Deployment"/>
+        </ObjectExactCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_released_date"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#has_VNFD_URI"/>
+            <Datatype abbreviatedIRI="xsd:anyURI"/>
+        </DataMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_released_date"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#has_VNF_URI"/>
+            <Datatype abbreviatedIRI="xsd:anyURI"/>
+        </DataMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_released_date"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#has_vendor"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_released_date"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#has_VNF_description"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_released_date"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#has_version"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_role"/>
+        <Class IRI="#Person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_size_unit"/>
+        <Class IRI="#Content"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_size_unit"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#owns"/>
+            <Class IRI="#Video_format"/>
+        </ObjectAllValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_size_value"/>
+        <Class IRI="#Content"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_size_value"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#owns"/>
+            <Class IRI="#Audio_format"/>
+        </ObjectAllValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_size_value"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#owns"/>
+            <Class IRI="#Image_format"/>
+        </ObjectAllValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_size_value"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#owns"/>
+            <Class IRI="#Video_format"/>
+        </ObjectAllValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_standard_description"/>
+        <Class IRI="#Standard"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_start_date"/>
+        <Class IRI="#Billing"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_storage_resource"/>
+        <Class IRI="#VNF"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_storage_unit"/>
+        <Class IRI="#VNF"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_technique_description"/>
+        <Class IRI="#Technique"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_tool_description"/>
+        <Class IRI="#Feature"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_vendor"/>
+        <Class IRI="#VNF"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_vendor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#applies"/>
+            <Class IRI="#Technique"/>
+        </ObjectSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_vendor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#costs"/>
+            <Class IRI="#Billing"/>
+        </ObjectSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_vendor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#Device"/>
+        </ObjectSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_vendor"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#offers"/>
+            <Class IRI="#Feature"/>
+        </ObjectSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_vendor"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#refers_to"/>
+            <Class IRI="#Deployment"/>
+        </ObjectAllValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_vendor"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#delivers"/>
+            <Class IRI="#Content"/>
+        </ObjectMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_vendor"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#implements"/>
+            <Class IRI="#Operation"/>
+        </ObjectMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_vendor"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#requests"/>
+            <Class IRI="#Content"/>
+        </ObjectMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_vendor"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#requires"/>
+            <Class IRI="#Content_attributes"/>
+        </ObjectMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_vendor"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#supplies"/>
+            <Class IRI="#Content_attributes"/>
+        </ObjectMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_vendor"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#refers_to"/>
+            <Class IRI="#Deployment"/>
+        </ObjectExactCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_vendor"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#has_VNFD_URI"/>
+            <Datatype abbreviatedIRI="xsd:anyURI"/>
+        </DataMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_vendor"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#has_VNF_URI"/>
+            <Datatype abbreviatedIRI="xsd:anyURI"/>
+        </DataMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_vendor"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#has_vendor"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_vendor"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#has_VNF_description"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_vendor"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#has_version"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_version"/>
+        <Class IRI="#VNF"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_version"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#applies"/>
+            <Class IRI="#Technique"/>
+        </ObjectSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_version"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#costs"/>
+            <Class IRI="#Billing"/>
+        </ObjectSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_version"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#covers"/>
+            <Class IRI="#Device"/>
+        </ObjectSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_version"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#offers"/>
+            <Class IRI="#Feature"/>
+        </ObjectSomeValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_version"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#refers_to"/>
+            <Class IRI="#Deployment"/>
+        </ObjectAllValuesFrom>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_version"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#delivers"/>
+            <Class IRI="#Content"/>
+        </ObjectMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_version"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#implements"/>
+            <Class IRI="#Operation"/>
+        </ObjectMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_version"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#requests"/>
+            <Class IRI="#Content"/>
+        </ObjectMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_version"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#requires"/>
+            <Class IRI="#Content_attributes"/>
+        </ObjectMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_version"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#supplies"/>
+            <Class IRI="#Content_attributes"/>
+        </ObjectMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_version"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="#refers_to"/>
+            <Class IRI="#Deployment"/>
+        </ObjectExactCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_version"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#has_VNFD_URI"/>
+            <Datatype abbreviatedIRI="xsd:anyURI"/>
+        </DataMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_version"/>
+        <DataMinCardinality cardinality="1">
+            <DataProperty IRI="#has_VNF_URI"/>
+            <Datatype abbreviatedIRI="xsd:anyURI"/>
+        </DataMinCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_version"/>
+        <DataExactCardinality cardinality="1">
+            <DataProperty IRI="#has_vendor"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataExactCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_version"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#has_VNF_description"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#has_version"/>
+        <DataMaxCardinality cardinality="1">
+            <DataProperty IRI="#has_version"/>
+            <Datatype abbreviatedIRI="xsd:string"/>
+        </DataMaxCardinality>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_CPU_Resource"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_CPU_unit"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_ID"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_Memory_unit"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_Network_unit"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_VNFD_URI"/>
+        <Datatype abbreviatedIRI="xsd:anyURI"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_VNFD_URI"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_VNF_URI"/>
+        <Datatype abbreviatedIRI="xsd:anyURI"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_VNF_URI"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_VNF_description"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_aspectratio_value"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_bitrate_unit"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_bitrate_value"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_category"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_currency"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_deployment_description_URI"/>
+        <Datatype abbreviatedIRI="xsd:anyURI"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_deployment_description_URI"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_developer"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_duration_unit"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_duration_value"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_email"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_framerate_unit"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_framerate_value"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_framesize_unit"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_framesize_value"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_memory_resource"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_network_resource"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_operation_description"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_password"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_price"/>
+        <Datatype abbreviatedIRI="xsd:double"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_pricing_model"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_released_date"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_role"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_size_unit"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_size_value"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_standard_description"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_start_date"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_storage_resource"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_technique_description"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_tool_description"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_vendor"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_version"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string"></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">S2</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Mobile"/>
+                <NamedIndividual IRI="#iPhone_6s"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Vtranscoder"/>
+                <Variable IRI="#t"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#covers"/>
+                <Variable IRI="#t"/>
+                <NamedIndividual IRI="#iPhone_6s"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Resolution"/>
+                <NamedIndividual IRI="#R1334x750_pixels"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#supplies"/>
+                <Variable IRI="#t"/>
+                <NamedIndividual IRI="#R1334x750_pixels"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">determine a device based on given resolution</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">S1</Literal>
+        </Annotation>
+        <Body>
+            <ClassAtom>
+                <Class IRI="#Resolution"/>
+                <NamedIndividual IRI="#R1334x750_pixels"/>
+            </ClassAtom>
+            <ClassAtom>
+                <Class IRI="#Vtranscoder"/>
+                <Variable IRI="#t"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#supplies"/>
+                <Variable IRI="#t"/>
+                <NamedIndividual IRI="#R1334x750_pixels"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ClassAtom>
+                <Class IRI="#Mobile"/>
+                <NamedIndividual IRI="#iPhone_6s"/>
+            </ClassAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#covers"/>
+                <Variable IRI="#t"/>
+                <NamedIndividual IRI="#iPhone_6s"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Bitrate</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The bitrate is the data rate for a video or audio file. Video and audio data rates are given in bits per second.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Compression_technique</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">The techniques used for data compression. it is the process of encoding information using fewer bits through use of a specific encoding scheme.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Content</IRI>
+        <Literal datatypeIRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#PlainLiteral">the class of multimedia data</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.4) http://owlapi.sourceforge.net -->
+
